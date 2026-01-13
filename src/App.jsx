@@ -856,7 +856,10 @@ const EducationSection = () => (
 );
 
 // --- CONTACT SECTION ---
+const linkedInUrl = "https://www.linkedin.com/in/soubhik-samanta";
 const ContactSection = () => (
+  
+  
   <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     <div className="bg-white rounded-[4rem] shadow-2xl border border-slate-100 overflow-hidden flex flex-col md:flex-row">
       <div className="md:w-1/2 bg-slate-900 text-white p-16">
@@ -910,11 +913,15 @@ const ContactSection = () => (
 
         <div className="mt-16 pt-12 border-t border-white/10">
           <a
-            href="#"
-            className="flex items-center gap-3 text-indigo-400 font-black hover:text-white transition-colors"
-          >
-            <Linkedin size={20} /> CONNECT ON LINKEDIN
-          </a>
+              href={linkedInUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 bg-[#0077b5] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#005c8c] transition-all shadow-lg active:scale-95 min-w-[200px] justify-center"
+            >
+              <LinkedInSquareIcon className="w-5 h-5" />
+              <span>Connect with me on LinkedIn</span>
+              <ExternalLink size={14} className="opacity-70" />
+            </a>
         </div>
       </div>
 
