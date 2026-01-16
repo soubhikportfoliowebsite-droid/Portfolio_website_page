@@ -66,7 +66,7 @@ const App = () => {
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0 flex flex-col">
               <span className="text-xl font-bold tracking-tight text-slate-900 uppercase">
-                CA SOUBHIK SAMANTA
+                CA SAUBHIK SAMANTA
               </span>
               <span className="text-xs font-semibold text-indigo-600 uppercase tracking-widest leading-none">
                 Partner, DPSV Associate LLP
@@ -131,7 +131,7 @@ const App = () => {
       <footer className="flex-none bg-slate-900 text-white py-4">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-[10px] font-black uppercase tracking-[0.2em]">
           <p>
-            © {new Date().getFullYear()} SOUBHIK SAMANTA. ALL RIGHTS RESERVED.
+            © {new Date().getFullYear()} SAUBHIK SAMANTA. ALL RIGHTS RESERVED.
           </p>
           <div className="flex gap-6">
             <span className="hover:text-slate-300 cursor-default transition-colors">
@@ -183,10 +183,10 @@ const HomeSection = () => {
               Senior Finance & Audit Professional
             </h2>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-              CA Soubhik Samanta
+              CA Saubhik Samanta
             </h1>
             <p className="text-xl font-medium text-slate-600">
-              Partner of DPSV Associate LLP
+              Designated partner of DPSV Associate LLP
             </p>
           </div>
 
@@ -419,12 +419,12 @@ const ExperienceSection = () => (
             </h4>
             <div className="flex flex-col gap-1">
               <p className="text-4xl font-black">
-                ₹286 Cr{" "}
+                35%{" "}
                 <span className="text-slate-500 text-xl font-medium">→</span>{" "}
-                ₹500 Cr
+                50% Cr
               </p>
               <p className="text-5xl font-black text-indigo-500">
-                ₹800 Cr{" "}
+                100%{" "}
                 <span className="text-slate-400 text-lg uppercase font-bold tracking-tighter">
                   Projected
                 </span>
