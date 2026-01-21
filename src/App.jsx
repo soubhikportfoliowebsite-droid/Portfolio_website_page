@@ -156,23 +156,15 @@ const HomeSection = () => {
   const emailAddress = "soubhik.samanta@dpsv.com";
   const linkedInUrl = "https://www.linkedin.com/in/soubhik-samanta";
 
-  const handleCopyEmail = () => {
-    const el = document.createElement("textarea");
-    el.value = emailAddress;
-    el.setAttribute("readonly", "");
-    el.style.position = "absolute";
-    el.style.left = "-9999px";
-    document.body.appendChild(el);
-    el.select();
-    try {
-      document.execCommand("copy");
-      setCopied(true);
-    } catch (err) {
-      console.error("Failed to copy", err);
-    }
-    document.body.removeChild(el);
+const handleCopyEmail = async () => {
+  try {
+    await navigator.clipboard.writeText(emailAddress);
+    setCopied(true);
     setTimeout(() => setCopied(false), 2000);
-  };
+  } catch (error) {
+    console.error("Clipboard copy failed:", error);
+  }
+}
 
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
