@@ -154,7 +154,7 @@ const App = () => {
 const HomeSection = () => {
   const [copied, setCopied] = useState(false);
   const emailAddress = "soubhik.samanta@dpsv.com";
-  const linkedInUrl = "";
+  const linkedInUrl = "https://www.linkedin.com/in/ca-saubhik-samanta-95747834a/";
 
 const handleCopyEmail = async () => {
   try {
