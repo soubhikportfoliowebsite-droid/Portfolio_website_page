@@ -69,7 +69,7 @@ const App = () => {
                 CA SAUBHIK SAMANTA
               </span>
               <span className="text-xs font-semibold text-indigo-600 uppercase tracking-widest leading-none">
-                Partner, DPSV Associate LLP
+                Designated Partner, DPSV Associate LLP
               </span>
             </div>
 
@@ -154,7 +154,7 @@ const App = () => {
 const HomeSection = () => {
   const [copied, setCopied] = useState(false);
   const emailAddress = "soubhik.samanta@dpsv.com";
-  const linkedInUrl = "https://www.linkedin.com/in/soubhik-samanta";
+  const linkedInUrl = "https://www.linkedin.com/in/ca-saubhik-samanta-95747834a/";
 
 const handleCopyEmail = async () => {
   try {
@@ -413,7 +413,7 @@ const ExperienceSection = () => (
               <p className="text-4xl font-black">
                 35%{" "}
                 <span className="text-slate-500 text-xl font-medium">→</span>{" "}
-                50% Cr
+                50%
               </p>
               <p className="text-5xl font-black text-indigo-500">
                 100%{" "}
@@ -871,7 +871,7 @@ const ContactSection = () => (
                 Direct Contact
               </p>
               <p className="text-xl font-bold italic">
-                +91 [Insert Number Here]
+                +91 98305 - 63866
               </p>
             </div>
           </div>
@@ -884,7 +884,7 @@ const ContactSection = () => (
                 Professional Email
               </p>
               <p className="text-xl font-bold italic">
-                soubhik@dpsvassociates.com
+                Soubhik.samanta@dpsv.com
               </p>
             </div>
           </div>
@@ -924,7 +924,7 @@ const ContactSection = () => (
               Current Mandate
             </h4>
             <p className="text-2xl font-black text-indigo-700">
-              Senior Partner
+              Designated Partner
             </p>
             <p className="text-slate-500 font-bold">DPSV Associate LLP</p>
           </div>
