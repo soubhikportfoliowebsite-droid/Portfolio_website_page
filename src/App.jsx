@@ -154,7 +154,7 @@ const App = () => {
 const HomeSection = () => {
   const [copied, setCopied] = useState(false);
   const emailAddress = "soubhik.samanta@dpsv.com";
-  const linkedInUrl = "https://www.linkedin.com/in/ca-saubhik-samanta-95747834a/";
+  const linkedInUrl = "";
 
 const handleCopyEmail = async () => {
   try {
@@ -231,7 +231,7 @@ const handleCopyEmail = async () => {
             <div className="absolute -inset-3 bg-indigo-100 rounded-[2.5rem] -rotate-3"></div>
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] bg-slate-200 shadow-2xl border-4 border-white">
               <img
-                src=''
+                src='./src/assets/Profile image.jpeg'
                 alt="CA Soubhik Samanta"
                 className="w-full h-full object-cover"
               />
